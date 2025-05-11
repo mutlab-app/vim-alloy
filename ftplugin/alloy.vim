@@ -1,4 +1,5 @@
-setlocal noexpandtab
+setlocal expandtab
+setlocal tabstop=2
 
 command! -nargs=0 -buffer AlloyFmt :call alloy#fmt#Format()
 
